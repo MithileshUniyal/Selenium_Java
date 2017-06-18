@@ -1,0 +1,32 @@
+2017-06-16 19:51:53 INFO  TC001_VerifyLoginWithInvalidCrendetials:42 - =================starting verifyLoginWithInvalidCrendetials test==================== 
+2017-06-16 19:51:58 INFO  HomePage:51 - clicked on SignIn Link and the object is :[[ChromeDriver: chrome on WIN8_1 (5006114eb4e72b79f52cb7e668a4a313)] -> xpath: //a[@class='login']]
+2017-06-16 19:51:59 INFO  HomePage:53 - Entered email address test@gmail.comand the object is :[[ChromeDriver: chrome on WIN8_1 (5006114eb4e72b79f52cb7e668a4a313)] -> xpath: //*[@id='email']]
+2017-06-16 19:51:59 INFO  HomePage:55 - Entered email address pass123and the object is :[[ChromeDriver: chrome on WIN8_1 (5006114eb4e72b79f52cb7e668a4a313)] -> xpath: //*[@id='passwd']]
+2017-06-16 19:52:01 INFO  HomePage:58 - clicked submit button and the object is :[[ChromeDriver: chrome on WIN8_1 (5006114eb4e72b79f52cb7e668a4a313)] -> xpath: //*[@id='SubmitLogin']]
+2017-06-16 19:52:02 INFO  HomePage:65 - Error mesaage is :Authentication failed.
+2017-06-16 19:52:02 INFO  TC001_VerifyLoginWithInvalidCrendetials:48 - =================Finished verifyLoginWithInvalidCrendetials test==================== 
+2017-06-16 19:52:02 INFO  TC001_VerifyLoginWithInvalidCrendetials:56 - closing browser
+2017-06-16 19:58:57 INFO  TC001_VerifyLoginWithInvalidCrendetials:42 - =================starting verifyLoginWithInvalidCrendetials test==================== 
+2017-06-16 19:59:01 INFO  HomePage:51 - clicked on SignIn Link and the object is :[[ChromeDriver: chrome on WIN8_1 (fedf96957e1eb6d223e2ed6ca7f52045)] -> xpath: //a[@class='login']]
+2017-06-16 19:59:01 INFO  HomePage:53 - Entered email address test@gmail.com and the object is :[[ChromeDriver: chrome on WIN8_1 (fedf96957e1eb6d223e2ed6ca7f52045)] -> xpath: //*[@id='email']]
+2017-06-16 19:59:01 INFO  HomePage:55 - Entered email address pass123 and the object is :[[ChromeDriver: chrome on WIN8_1 (fedf96957e1eb6d223e2ed6ca7f52045)] -> xpath: //*[@id='passwd']]
+2017-06-16 19:59:04 INFO  HomePage:58 - clicked submit button and the object is :[[ChromeDriver: chrome on WIN8_1 (fedf96957e1eb6d223e2ed6ca7f52045)] -> xpath: //*[@id='SubmitLogin']]
+2017-06-16 19:59:04 INFO  HomePage:65 - Error mesaage is :Authentication failed.
+2017-06-16 19:59:04 INFO  TC001_VerifyLoginWithInvalidCrendetials:48 - =================Finished verifyLoginWithInvalidCrendetials test==================== 
+2017-06-16 19:59:06 INFO  TC001_VerifyLoginWithInvalidCrendetials:56 - closing browser2017-06-16 20:03:51 INFO  TC001_VerifyLoginWithInvalidCrendetials:42 - =================starting verifyLoginWithInvalidCrendetials test==================== 
+2017-06-16 20:04:01 INFO  HomePage:51 - clicked on SignIn Link and the object is :[[ChromeDriver: chrome on WIN8_1 (ee2dbeb68d2c46657c610859659c9f3b)] -> xpath: //a[@class='login']]
+2017-06-16 20:04:02 INFO  HomePage:53 - Entered email address test@gmail.com and the object is :[[ChromeDriver: chrome on WIN8_1 (ee2dbeb68d2c46657c610859659c9f3b)] -> xpath: //*[@id='email']]
+2017-06-16 20:04:02 INFO  HomePage:55 - Entered email address pass123 and the object is :[[ChromeDriver: chrome on WIN8_1 (ee2dbeb68d2c46657c610859659c9f3b)] -> xpath: //*[@id='passwd']]
+2017-06-16 20:04:05 INFO  HomePage:58 - clicked submit button and the object is :[[ChromeDriver: chrome on WIN8_1 (ee2dbeb68d2c46657c610859659c9f3b)] -> xpath: //*[@id='SubmitLogin']]
+2017-06-16 20:04:05 INFO  HomePage:65 - Error mesaage is :Authentication failed.
+2017-06-16 20:04:05 INFO  TC001_VerifyLoginWithInvalidCrendetials:48 - =================Finished verifyLoginWithInvalidCrendetials test==================== 
+2017-06-16 20:04:06 INFO  TC001_VerifyLoginWithInvalidCrendetials:56 - closing browser
+2017-06-16 20:05:40 INFO  TC001_VerifyLoginWithInvalidCrendetials:42 - =================starting verifyLoginWithInvalidCrendetials test==================== 
+2017-06-16 20:36:34 INFO  TC001_VerifyLoginWithInvalidCrendetials:42 - =================starting verifyLoginWithInvalidCrendetials test==================== 
+2017-06-16 20:36:43 INFO  HomePage:52 - clicked on SignIn Link and the object is :[[ChromeDriver: chrome on WIN8_1 (be556695010c5f1247b2c07cdf406e1a)] -> xpath: //a[@class='login']]
+2017-06-16 20:36:43 INFO  HomePage:54 - Entered email address test@gmail.com and the object is :[[ChromeDriver: chrome on WIN8_1 (be556695010c5f1247b2c07cdf406e1a)] -> xpath: //*[@id='email']]
+2017-06-16 20:36:44 INFO  HomePage:56 - Entered email address pass123 and the object is :[[ChromeDriver: chrome on WIN8_1 (be556695010c5f1247b2c07cdf406e1a)] -> xpath: //*[@id='passwd']]
+2017-06-16 20:36:46 INFO  HomePage:59 - clicked submit button and the object is :[[ChromeDriver: chrome on WIN8_1 (be556695010c5f1247b2c07cdf406e1a)] -> xpath: //*[@id='SubmitLogin']]
+2017-06-16 20:36:46 INFO  HomePage:66 - Error mesaage is :Authentication failed.
+2017-06-16 20:36:46 INFO  TC001_VerifyLoginWithInvalidCrendetials:48 - =================Finished verifyLoginWithInvalidCrendetials test==================== 
+2017-06-16 20:36:46 INFO  TC001_VerifyLoginWithInvalidCrendetials:56 - closing browser

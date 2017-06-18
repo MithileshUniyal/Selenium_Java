@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37799" started-at="2017-06-16T15:06:08Z" finished-at="2017-06-16T15:06:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37799" started-at="2017-06-16T15:06:08Z" finished-at="2017-06-16T15:06:46Z">
+      <class name="com.framework.automation.PageFactoryFw.homePage.TC001_VerifyLoginWithInvalidCrendetials">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.framework.automation.PageFactoryFw.homePage.TC001_VerifyLoginWithInvalidCrendetials@598067a5]" name="setUp" is-config="true" duration-ms="25396" started-at="2017-06-16T20:36:08Z" finished-at="2017-06-16T20:36:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginWithInvalidCrendetials()[pri:0, instance:com.framework.automation.PageFactoryFw.homePage.TC001_VerifyLoginWithInvalidCrendetials@598067a5]" name="verifyLoginWithInvalidCrendetials" duration-ms="12235" started-at="2017-06-16T20:36:34Z" finished-at="2017-06-16T20:36:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCrendetials -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.framework.automation.PageFactoryFw.homePage.TC001_VerifyLoginWithInvalidCrendetials@598067a5]" name="endTest" is-config="true" duration-ms="107" started-at="2017-06-16T20:36:46Z" finished-at="2017-06-16T20:36:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.framework.automation.PageFactoryFw.homePage.TC001_VerifyLoginWithInvalidCrendetials -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
