@@ -42,6 +42,9 @@ public class TC001_VerifyLoginWithInvalidCrendetials extends TestBase {
 		try {
 			log.info("=================starting verifyLoginWithInvalidCrendetials test==================== ");
 			homepage = new HomePage(driver);
+			
+			System.out.println("obect initilized");
+			
 			homepage.loginToApplication("test@gmail.com", "pass123");
 
 			Assert.assertEquals(homepage.getInvalidLoginText(), "Authentication failed.");

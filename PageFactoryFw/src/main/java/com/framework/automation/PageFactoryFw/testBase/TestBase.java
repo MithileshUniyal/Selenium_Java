@@ -8,10 +8,14 @@ import java.util.concurrent.TimeUnit;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.framework.automation.PageFactoryFw.applicationPages.HomePage;
+import com.framework.automation.PageFactoryFw.excelReader.Read_Excel;
 
 /**
  * @author ANKIT
@@ -24,7 +28,8 @@ public class TestBase {
 	public WebDriver driver;
 	String BaseUrl = "http://automationpractice.com/index.php";
 	String browser = "chrome";
-
+	Read_Excel excel;
+	
 	public void init() {
 		
 		selectBrowser(browser);
@@ -39,8 +44,7 @@ public class TestBase {
 	public void selectBrowser(String browser) {
 
 		if (browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver",
-					"C:\\Users\\ANKIT\\EclipseWorkspace\\PageFactoryFw\\drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
 
 			log.info("creating object of "+browser);
 			driver = new ChromeDriver();
@@ -73,4 +77,21 @@ public class TestBase {
 		log.info("");
 	}
 
+	
+	public String [][] getData(String excelName,String sheetName){
+		String path=System.getProperty("user.dir")+"\\src\\main\\java\\com\\framework\\automation\\PageFactoryFw\\data\\"+excelName;
+		excel=new Read_Excel(path);
+		
+		String data[][]=excel.getDataFromSheet(excelName, sheetName);
+		
+		return data;
+	}
+	
+	public void waitForElement(int timeOutInSeconds, WebElement element){
+		
+		WebDriverWait wait=new WebDriverWait(driver, timeOutInSeconds);
+		wait.until(ExpectedConditions.visibilityOf(element));
+		
+	}
+	
 }

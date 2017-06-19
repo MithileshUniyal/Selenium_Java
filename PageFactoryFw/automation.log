@@ -30,3 +30,46 @@
 2017-06-16 20:36:46 INFO  HomePage:66 - Error mesaage is :Authentication failed.
 2017-06-16 20:36:46 INFO  TC001_VerifyLoginWithInvalidCrendetials:48 - =================Finished verifyLoginWithInvalidCrendetials test==================== 
 2017-06-16 20:36:46 INFO  TC001_VerifyLoginWithInvalidCrendetials:56 - closing browser
+2017-06-19 23:37:23 INFO  TC002_VerifyLoginWithDifferentRecords:52 - =================starting verifyLoginWithDifferentRecords test====================
+2017-06-19 23:37:23 INFO  TC002_VerifyLoginWithDifferentRecords:52 - =================starting verifyLoginWithDifferentRecords test====================
+2017-06-19 23:37:24 INFO  TC002_VerifyLoginWithDifferentRecords:65 - closing browser
+2017-06-19 23:41:57 INFO  TC001_VerifyLoginWithInvalidCrendetials:43 - =================starting verifyLoginWithInvalidCrendetials test==================== 
+2017-06-19 23:41:57 INFO  TC001_VerifyLoginWithInvalidCrendetials:50 - Exception occured
+2017-06-19 23:41:57 INFO  TC001_VerifyLoginWithInvalidCrendetials:53 - =================Finished verifyLoginWithInvalidCrendetials test==================== 
+2017-06-19 23:41:57 INFO  TC001_VerifyLoginWithInvalidCrendetials:60 - closing browser
+2017-06-19 23:43:50 INFO  TC001_VerifyLoginWithInvalidCrendetials:43 - =================starting verifyLoginWithInvalidCrendetials test==================== 
+2017-06-19 23:43:50 INFO  TC001_VerifyLoginWithInvalidCrendetials:52 - Exception occured
+2017-06-19 23:43:50 INFO  TC001_VerifyLoginWithInvalidCrendetials:55 - =================Finished verifyLoginWithInvalidCrendetials test==================== 
+2017-06-19 23:43:50 INFO  TC001_VerifyLoginWithInvalidCrendetials:62 - closing browser
+2017-06-19 23:45:34 INFO  TC001_VerifyLoginWithInvalidCrendetials:43 - =================starting verifyLoginWithInvalidCrendetials test==================== 
+2017-06-19 23:45:37 INFO  HomePage:53 - clicked on SignIn Link and the object is :[[ChromeDriver: chrome on WIN8_1 (41ad732a1580475c6ebb7419d4638301)] -> xpath: //a[@class='login']]
+2017-06-19 23:45:38 INFO  HomePage:56 - Entered email address test@gmail.com and the object is :[[ChromeDriver: chrome on WIN8_1 (41ad732a1580475c6ebb7419d4638301)] -> xpath: //*[@id='email']]
+2017-06-19 23:45:38 INFO  HomePage:59 - Entered email address pass123 and the object is :[[ChromeDriver: chrome on WIN8_1 (41ad732a1580475c6ebb7419d4638301)] -> xpath: //*[@id='passwd']]
+2017-06-19 23:45:40 INFO  HomePage:62 - clicked submit button and the object is :[[ChromeDriver: chrome on WIN8_1 (41ad732a1580475c6ebb7419d4638301)] -> xpath: //*[@id='SubmitLogin']]
+2017-06-19 23:45:40 INFO  HomePage:69 - Error mesaage is :Authentication failed.
+2017-06-19 23:45:40 INFO  TC001_VerifyLoginWithInvalidCrendetials:56 - =================Finished verifyLoginWithInvalidCrendetials test==================== 
+2017-06-19 23:45:41 INFO  TC001_VerifyLoginWithInvalidCrendetials:63 - closing browser
+2017-06-19 23:46:40 INFO  TC002_VerifyLoginWithDifferentRecords:52 - =================starting verifyLoginWithDifferentRecords test====================
+2017-06-19 23:46:44 INFO  HomePage:53 - clicked on SignIn Link and the object is :[[ChromeDriver: chrome on WIN8_1 (e629c94b6e2db563c77637944022c45b)] -> xpath: //a[@class='login']]
+2017-06-19 23:46:44 INFO  HomePage:56 - Entered email address test@gmail.com and the object is :[[ChromeDriver: chrome on WIN8_1 (e629c94b6e2db563c77637944022c45b)] -> xpath: //*[@id='email']]
+2017-06-19 23:46:45 INFO  HomePage:59 - Entered email address pass123 and the object is :[[ChromeDriver: chrome on WIN8_1 (e629c94b6e2db563c77637944022c45b)] -> xpath: //*[@id='passwd']]
+2017-06-19 23:46:46 INFO  HomePage:62 - clicked submit button and the object is :[[ChromeDriver: chrome on WIN8_1 (e629c94b6e2db563c77637944022c45b)] -> xpath: //*[@id='SubmitLogin']]
+2017-06-19 23:46:46 INFO  TC002_VerifyLoginWithDifferentRecords:58 - =================Finished verifyLoginWithDifferentRecords test=====================
+2017-06-19 23:46:46 INFO  TC002_VerifyLoginWithDifferentRecords:52 - =================starting verifyLoginWithDifferentRecords test====================
+2017-06-19 23:46:49 INFO  HomePage:53 - clicked on SignIn Link and the object is :[[ChromeDriver: chrome on WIN8_1 (e629c94b6e2db563c77637944022c45b)] -> xpath: //a[@class='login']]
+2017-06-19 23:46:50 INFO  HomePage:56 - Entered email address test1@gmail.com and the object is :[[ChromeDriver: chrome on WIN8_1 (e629c94b6e2db563c77637944022c45b)] -> xpath: //*[@id='email']]
+2017-06-19 23:46:50 INFO  HomePage:59 - Entered email address pass123 and the object is :[[ChromeDriver: chrome on WIN8_1 (e629c94b6e2db563c77637944022c45b)] -> xpath: //*[@id='passwd']]
+2017-06-19 23:46:52 INFO  HomePage:62 - clicked submit button and the object is :[[ChromeDriver: chrome on WIN8_1 (e629c94b6e2db563c77637944022c45b)] -> xpath: //*[@id='SubmitLogin']]
+2017-06-19 23:46:52 INFO  TC002_VerifyLoginWithDifferentRecords:58 - =================Finished verifyLoginWithDifferentRecords test=====================
+2017-06-19 23:46:52 INFO  TC002_VerifyLoginWithDifferentRecords:65 - closing browser
+2017-06-19 23:52:08 INFO  TC002_VerifyLoginWithDifferentRecords:52 - =================starting verifyLoginWithDifferentRecords test====================
+2017-06-19 23:52:15 INFO  HomePage:53 - clicked on SignIn Link and the object is :[[ChromeDriver: chrome on WIN8_1 (a3a3b3ba73f8f063662d20233869ffcc)] -> xpath: //a[@class='login']]
+2017-06-19 23:52:16 INFO  HomePage:56 - Entered email address test@gmail.com and the object is :[[ChromeDriver: chrome on WIN8_1 (a3a3b3ba73f8f063662d20233869ffcc)] -> xpath: //*[@id='email']]
+2017-06-19 23:52:16 INFO  HomePage:59 - Entered email address pass123 and the object is :[[ChromeDriver: chrome on WIN8_1 (a3a3b3ba73f8f063662d20233869ffcc)] -> xpath: //*[@id='passwd']]
+2017-06-19 23:52:18 INFO  HomePage:62 - clicked submit button and the object is :[[ChromeDriver: chrome on WIN8_1 (a3a3b3ba73f8f063662d20233869ffcc)] -> xpath: //*[@id='SubmitLogin']]
+2017-06-19 23:52:18 INFO  TC002_VerifyLoginWithDifferentRecords:58 - =================Finished verifyLoginWithDifferentRecords test=====================
+2017-06-19 23:52:18 INFO  TC002_VerifyLoginWithDifferentRecords:52 - =================starting verifyLoginWithDifferentRecords test====================
+2017-06-20 00:10:58 INFO  TC001_VerifyLoginWithInvalidCrendetials:43 - =================starting verifyLoginWithInvalidCrendetials test==================== 
+2017-06-20 00:11:02 INFO  TC001_VerifyLoginWithInvalidCrendetials:53 - Exception occured
+2017-06-20 00:11:02 INFO  TC001_VerifyLoginWithInvalidCrendetials:56 - =================Finished verifyLoginWithInvalidCrendetials test==================== 
+2017-06-20 00:11:02 INFO  TC001_VerifyLoginWithInvalidCrendetials:63 - closing browser

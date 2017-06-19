@@ -15,7 +15,7 @@ import com.framework.automation.PageFactoryFw.testBase.TestBase;
  * @author ANKIT
  *
  */
-public class HomePage {
+public class HomePage extends TestBase{
 
 	public static final Logger log=Logger.getLogger(HomePage.class.getName());
 	
@@ -48,10 +48,14 @@ public class HomePage {
 	
 	public void loginToApplication(String emailAdd, String passwd){
 		
+		//waitForElement(60, signIn);
 		signIn.click();
+		waitForElement(60, signIn);
 		log.info("clicked on SignIn Link and the object is :"+signIn.toString());
+		emailAddress.clear();
 		emailAddress.sendKeys(emailAdd);
 		log.info("Entered email address "+emailAdd+" and the object is :"+emailAddress.toString());
+		password.clear();
 		password.sendKeys(passwd);
 		log.info("Entered email address "+passwd+" and the object is :"+password.toString());
 		
