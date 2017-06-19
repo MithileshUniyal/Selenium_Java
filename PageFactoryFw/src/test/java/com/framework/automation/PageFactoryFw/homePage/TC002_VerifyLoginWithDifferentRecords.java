@@ -9,7 +9,6 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
 import com.framework.automation.PageFactoryFw.applicationPages.HomePage;
 import com.framework.automation.PageFactoryFw.testBase.TestBase;
 
@@ -54,6 +53,7 @@ public class TC002_VerifyLoginWithDifferentRecords extends TestBase{
 			homepage = new HomePage(driver);
 			homepage.loginToApplication(emailAddress,password);
 
+			getScreenshot("verifyLoginWithDifferentRecords"+emailAddress);
 
 		    log.info("=================Finished verifyLoginWithDifferentRecords test=====================");
 	}

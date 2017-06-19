@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-skipped">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\ANKIT\AppData\Local\Temp\testng-eclipse--255361478\testng-customsuite.xml</span>
+                    <span>C:\Users\ANKIT\AppData\Local\Temp\testng-eclipse-14723400\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">4 methods,  1 skipped,  3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods skipped suite-Default_suite"> (hide)</a> <!-- hide-methods skipped suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods skipped suite-Default_suite"> (show)</a> <!-- show-methods skipped suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Default_suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.framework.automation.PageFactoryFw.homePage.TC002_VerifyLoginWithDifferentRecords" hash-for-method="verifyLoginWithDifferentRecords(test3@yahoo.com, pass2322, N)">verifyLoginWithDifferentRecords(test3@yahoo.com, pass2322, N)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +116,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.framework.automation.PageFactoryFw.homePage.TC001_VerifyLoginWithInvalidCrendetials" hash-for-method="verifyLoginWithInvalidCrendetials">verifyLoginWithInvalidCrendetials</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.framework.automation.PageFactoryFw.homePage.TC002_VerifyLoginWithDifferentRecords" hash-for-method="verifyLoginWithDifferentRecords(test1@gmail.com, pass123, Y)">verifyLoginWithDifferentRecords(test1@gmail.com, pass123, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.framework.automation.PageFactoryFw.homePage.TC002_VerifyLoginWithDifferentRecords" hash-for-method="verifyLoginWithDifferentRecords(test4@hotmail.com, pass121, Y)">verifyLoginWithDifferentRecords(test4@hotmail.com, pass121, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.framework.automation.PageFactoryFw.homePage.TC002_VerifyLoginWithDifferentRecords" hash-for-method="verifyLoginWithDifferentRecords(test@gmail.com, pass123, Y)">verifyLoginWithDifferentRecords(test@gmail.com, pass123, Y)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -117,17 +141,79 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+          <div class="suite-Default_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.framework.automation.PageFactoryFw.homePage.TC001_VerifyLoginWithInvalidCrendetials</span>
+              <img src="skipped.png"/>
+              <span class="class-name">com.framework.automation.PageFactoryFw.homePage.TC002_VerifyLoginWithDifferentRecords</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyLoginWithInvalidCrendetials">
-                  </a> <!-- verifyLoginWithInvalidCrendetials -->
-                  <span class="method-name">verifyLoginWithInvalidCrendetials</span>
+                  <a name="verifyLoginWithDifferentRecords(test3@yahoo.com, pass2322, N)">
+                  </a> <!-- verifyLoginWithDifferentRecords(test3@yahoo.com, pass2322, N) -->
+                  <span class="method-name">verifyLoginWithDifferentRecords</span>
+                  <span class="parameters">(test3@yahoo.com, pass2322, N)</span>
+                  <div class="stack-trace">org.testng.SkipException: This is Marked as no Run
+	at com.framework.automation.PageFactoryFw.homePage.TC002_VerifyLoginWithDifferentRecords.verifyLoginWithDifferentRecords(TC002_VerifyLoginWithDifferentRecords.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-skipped -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.framework.automation.PageFactoryFw.homePage.TC002_VerifyLoginWithDifferentRecords</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithDifferentRecords(test1@gmail.com, pass123, Y)">
+                  </a> <!-- verifyLoginWithDifferentRecords(test1@gmail.com, pass123, Y) -->
+                  <span class="method-name">verifyLoginWithDifferentRecords</span>
+                  <span class="parameters">(test1@gmail.com, pass123, Y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithDifferentRecords(test4@hotmail.com, pass121, Y)">
+                  </a> <!-- verifyLoginWithDifferentRecords(test4@hotmail.com, pass121, Y) -->
+                  <span class="method-name">verifyLoginWithDifferentRecords</span>
+                  <span class="parameters">(test4@hotmail.com, pass121, Y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithDifferentRecords(test@gmail.com, pass123, Y)">
+                  </a> <!-- verifyLoginWithDifferentRecords(test@gmail.com, pass123, Y) -->
+                  <span class="method-name">verifyLoginWithDifferentRecords</span>
+                  <span class="parameters">(test@gmail.com, pass123, Y)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +221,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\ANKIT\AppData\Local\Temp\testng-eclipse--255361478\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\ANKIT\AppData\Local\Temp\testng-eclipse-14723400\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -144,7 +230,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.framework.automation.PageFactoryFw.homePage.TC001_VerifyLoginWithInvalidCrendetials&quot;/&gt;
+      &lt;class name=&quot;com.framework.automation.PageFactoryFw.homePage.TC002_VerifyLoginWithDifferentRecords&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -184,16 +270,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyLoginWithInvalidCrendetials')
-data.setCell(0, 2, 'com.framework.automation.PageFactoryFw.homePage.TC001_VerifyLoginWithInvalidCrendetials')
-data.setCell(0, 3, 12235);
+data.setCell(0, 1, 'verifyLoginWithDifferentRecords')
+data.setCell(0, 2, 'com.framework.automation.PageFactoryFw.homePage.TC002_VerifyLoginWithDifferentRecords')
+data.setCell(0, 3, 8021);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyLoginWithDifferentRecords')
+data.setCell(1, 2, 'com.framework.automation.PageFactoryFw.homePage.TC002_VerifyLoginWithDifferentRecords')
+data.setCell(1, 3, 7214);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyLoginWithDifferentRecords')
+data.setCell(2, 2, 'com.framework.automation.PageFactoryFw.homePage.TC002_VerifyLoginWithDifferentRecords')
+data.setCell(2, 3, 5994);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyLoginWithDifferentRecords')
+data.setCell(3, 2, 'com.framework.automation.PageFactoryFw.homePage.TC002_VerifyLoginWithDifferentRecords')
+data.setCell(3, 3, 12);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -204,6 +302,24 @@ return data;
             <span class="header-content">Reporter output for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLoginWithDifferentRecords(test1@gmail.com, pass123, Y)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href='C:\Users\ANKIT\Downloads\Documents\GitHub\Selenium_Java\PageFactoryFw\src\main\java\com\framework\automation\PageFactoryFw\screenShots\verifyLoginWithDifferentRecordstest1@gmail.com_20_06_2017_01_19_40.png'> <img src='C:\Users\ANKIT\Downloads\Documents\GitHub\Selenium_Java\PageFactoryFw\src\main\java\com\framework\automation\PageFactoryFw\screenShots\verifyLoginWithDifferentRecordstest1@gmail.com_20_06_2017_01_19_40.png' height='80' width='80'/></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLoginWithDifferentRecords(test4@hotmail.com, pass121, Y)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href='C:\Users\ANKIT\Downloads\Documents\GitHub\Selenium_Java\PageFactoryFw\src\main\java\com\framework\automation\PageFactoryFw\screenShots\verifyLoginWithDifferentRecordstest4@hotmail.com_20_06_2017_01_19_46.png'> <img src='C:\Users\ANKIT\Downloads\Documents\GitHub\Selenium_Java\PageFactoryFw\src\main\java\com\framework\automation\PageFactoryFw\screenShots\verifyLoginWithDifferentRecordstest4@hotmail.com_20_06_2017_01_19_46.png' height='80' width='80'/></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLoginWithDifferentRecords(test@gmail.com, pass123, Y)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href='C:\Users\ANKIT\Downloads\Documents\GitHub\Selenium_Java\PageFactoryFw\src\main\java\com\framework\automation\PageFactoryFw\screenShots\verifyLoginWithDifferentRecordstest@gmail.com_20_06_2017_01_19_31.png'> <img src='C:\Users\ANKIT\Downloads\Documents\GitHub\Selenium_Java\PageFactoryFw\src\main\java\com\framework\automation\PageFactoryFw\screenShots\verifyLoginWithDifferentRecordstest@gmail.com_20_06_2017_01_19_31.png' height='80' width='80'/></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
@@ -219,18 +335,30 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.framework.automation.PageFactoryFw.homePage.TC001_VerifyLoginWithInvalidCrendetials</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.framework.automation.PageFactoryFw.homePage.TC002_VerifyLoginWithDifferentRecords</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">verifyLoginWithInvalidCrendetials</span>
-                <span class="method-start">25438 ms</span>
+                <span class="method-name">verifyLoginWithDifferentRecords(test@gmail.com, pass123, Y)</span>
+                <span class="method-start">19763 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithDifferentRecords(test1@gmail.com, pass123, Y)</span>
+                <span class="method-start">26981 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithDifferentRecords(test3@yahoo.com, pass2322, N)</span>
+                <span class="method-start">35013 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithDifferentRecords(test4@hotmail.com, pass121, Y)</span>
+                <span class="method-start">35038 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">endTest</span>
-                <span class="method-start">37681 ms</span>
+                <span class="method-start">41039 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

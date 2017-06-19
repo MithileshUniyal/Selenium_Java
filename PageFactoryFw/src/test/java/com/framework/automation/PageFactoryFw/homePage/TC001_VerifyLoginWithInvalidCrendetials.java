@@ -48,9 +48,11 @@ public class TC001_VerifyLoginWithInvalidCrendetials extends TestBase {
 			homepage.loginToApplication("test@gmail.com", "pass123");
 
 			Assert.assertEquals(homepage.getInvalidLoginText(), "Authentication failed.");
+			getScreenshot("Pass_verifyLoginWithInvalidCrendetials");
 
 		} catch (Exception e) {
 			log.info("Exception occured");
+			getScreenshot("Fail_verifyLoginWithInvalidCrendetials");
 		}
 
 		log.info("=================Finished verifyLoginWithInvalidCrendetials test==================== ");

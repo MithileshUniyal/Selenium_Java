@@ -1,2 +1,3 @@
 [0616/203611.928:ERROR:file_io_win.cc(163)] CreateFile C:\Users\ANKIT\AppData\Local\Temp\scoped_dir456_20477\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
 [0619/234331.862:ERROR:file_io_win.cc(163)] CreateFile C:\Users\ANKIT\AppData\Local\Temp\scoped_dir428_20665\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[0620/011908.612:ERROR:file_io_win.cc(163)] CreateFile C:\Users\ANKIT\AppData\Local\Temp\scoped_dir6220_21298\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)

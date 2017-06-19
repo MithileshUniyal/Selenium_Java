@@ -50,7 +50,7 @@ public class HomePage extends TestBase{
 		
 		//waitForElement(60, signIn);
 		signIn.click();
-		waitForElement(60, signIn);
+		//waitForElement(60, signIn);
 		log.info("clicked on SignIn Link and the object is :"+signIn.toString());
 		emailAddress.clear();
 		emailAddress.sendKeys(emailAdd);

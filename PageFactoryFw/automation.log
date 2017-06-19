@@ -73,3 +73,42 @@
 2017-06-20 00:11:02 INFO  TC001_VerifyLoginWithInvalidCrendetials:53 - Exception occured
 2017-06-20 00:11:02 INFO  TC001_VerifyLoginWithInvalidCrendetials:56 - =================Finished verifyLoginWithInvalidCrendetials test==================== 
 2017-06-20 00:11:02 INFO  TC001_VerifyLoginWithInvalidCrendetials:63 - closing browser
+2017-06-20 01:08:23 INFO  TC001_VerifyLoginWithInvalidCrendetials:43 - =================starting verifyLoginWithInvalidCrendetials test==================== 
+2017-06-20 01:08:27 INFO  TC001_VerifyLoginWithInvalidCrendetials:54 - Exception occured
+2017-06-20 01:08:28 INFO  TC001_VerifyLoginWithInvalidCrendetials:58 - =================Finished verifyLoginWithInvalidCrendetials test==================== 
+2017-06-20 01:08:28 INFO  TC001_VerifyLoginWithInvalidCrendetials:65 - closing browser
+2017-06-20 01:12:36 INFO  TC002_VerifyLoginWithDifferentRecords:52 - =================starting verifyLoginWithDifferentRecords test====================
+2017-06-20 01:12:40 INFO  TC002_VerifyLoginWithDifferentRecords:52 - =================starting verifyLoginWithDifferentRecords test====================
+2017-06-20 01:12:43 INFO  TC002_VerifyLoginWithDifferentRecords:66 - closing browser
+2017-06-20 01:14:30 INFO  TC002_VerifyLoginWithDifferentRecords:52 - =================starting verifyLoginWithDifferentRecords test====================
+2017-06-20 01:14:34 INFO  HomePage:54 - clicked on SignIn Link and the object is :[[ChromeDriver: chrome on WIN8_1 (63fb495ec65081126fb7f32d8237078e)] -> xpath: //a[@class='login']]
+2017-06-20 01:14:35 INFO  HomePage:57 - Entered email address test@gmail.com and the object is :[[ChromeDriver: chrome on WIN8_1 (63fb495ec65081126fb7f32d8237078e)] -> xpath: //*[@id='email']]
+2017-06-20 01:14:36 INFO  HomePage:60 - Entered email address pass123 and the object is :[[ChromeDriver: chrome on WIN8_1 (63fb495ec65081126fb7f32d8237078e)] -> xpath: //*[@id='passwd']]
+2017-06-20 01:14:37 INFO  HomePage:63 - clicked submit button and the object is :[[ChromeDriver: chrome on WIN8_1 (63fb495ec65081126fb7f32d8237078e)] -> xpath: //*[@id='SubmitLogin']]
+2017-06-20 01:14:38 INFO  TC002_VerifyLoginWithDifferentRecords:59 - =================Finished verifyLoginWithDifferentRecords test=====================
+2017-06-20 01:14:38 INFO  TC002_VerifyLoginWithDifferentRecords:52 - =================starting verifyLoginWithDifferentRecords test====================
+2017-06-20 01:14:41 INFO  HomePage:54 - clicked on SignIn Link and the object is :[[ChromeDriver: chrome on WIN8_1 (63fb495ec65081126fb7f32d8237078e)] -> xpath: //a[@class='login']]
+2017-06-20 01:14:41 INFO  HomePage:57 - Entered email address test1@gmail.com and the object is :[[ChromeDriver: chrome on WIN8_1 (63fb495ec65081126fb7f32d8237078e)] -> xpath: //*[@id='email']]
+2017-06-20 01:14:42 INFO  HomePage:60 - Entered email address pass123 and the object is :[[ChromeDriver: chrome on WIN8_1 (63fb495ec65081126fb7f32d8237078e)] -> xpath: //*[@id='passwd']]
+2017-06-20 01:14:44 INFO  HomePage:63 - clicked submit button and the object is :[[ChromeDriver: chrome on WIN8_1 (63fb495ec65081126fb7f32d8237078e)] -> xpath: //*[@id='SubmitLogin']]
+2017-06-20 01:14:44 INFO  TC002_VerifyLoginWithDifferentRecords:59 - =================Finished verifyLoginWithDifferentRecords test=====================
+2017-06-20 01:14:44 INFO  TC002_VerifyLoginWithDifferentRecords:66 - closing browser
+2017-06-20 01:19:25 INFO  TC002_VerifyLoginWithDifferentRecords:52 - =================starting verifyLoginWithDifferentRecords test====================
+2017-06-20 01:19:28 INFO  HomePage:54 - clicked on SignIn Link and the object is :[[ChromeDriver: chrome on WIN8_1 (7f20625600d594c134a2cdbb6e973290)] -> xpath: //a[@class='login']]
+2017-06-20 01:19:29 INFO  HomePage:57 - Entered email address test@gmail.com and the object is :[[ChromeDriver: chrome on WIN8_1 (7f20625600d594c134a2cdbb6e973290)] -> xpath: //*[@id='email']]
+2017-06-20 01:19:30 INFO  HomePage:60 - Entered email address pass123 and the object is :[[ChromeDriver: chrome on WIN8_1 (7f20625600d594c134a2cdbb6e973290)] -> xpath: //*[@id='passwd']]
+2017-06-20 01:19:31 INFO  HomePage:63 - clicked submit button and the object is :[[ChromeDriver: chrome on WIN8_1 (7f20625600d594c134a2cdbb6e973290)] -> xpath: //*[@id='SubmitLogin']]
+2017-06-20 01:19:32 INFO  TC002_VerifyLoginWithDifferentRecords:59 - =================Finished verifyLoginWithDifferentRecords test=====================
+2017-06-20 01:19:32 INFO  TC002_VerifyLoginWithDifferentRecords:52 - =================starting verifyLoginWithDifferentRecords test====================
+2017-06-20 01:19:35 INFO  HomePage:54 - clicked on SignIn Link and the object is :[[ChromeDriver: chrome on WIN8_1 (7f20625600d594c134a2cdbb6e973290)] -> xpath: //a[@class='login']]
+2017-06-20 01:19:36 INFO  HomePage:57 - Entered email address test1@gmail.com and the object is :[[ChromeDriver: chrome on WIN8_1 (7f20625600d594c134a2cdbb6e973290)] -> xpath: //*[@id='email']]
+2017-06-20 01:19:36 INFO  HomePage:60 - Entered email address pass123 and the object is :[[ChromeDriver: chrome on WIN8_1 (7f20625600d594c134a2cdbb6e973290)] -> xpath: //*[@id='passwd']]
+2017-06-20 01:19:40 INFO  HomePage:63 - clicked submit button and the object is :[[ChromeDriver: chrome on WIN8_1 (7f20625600d594c134a2cdbb6e973290)] -> xpath: //*[@id='SubmitLogin']]
+2017-06-20 01:19:40 INFO  TC002_VerifyLoginWithDifferentRecords:59 - =================Finished verifyLoginWithDifferentRecords test=====================
+2017-06-20 01:19:40 INFO  TC002_VerifyLoginWithDifferentRecords:52 - =================starting verifyLoginWithDifferentRecords test====================
+2017-06-20 01:19:43 INFO  HomePage:54 - clicked on SignIn Link and the object is :[[ChromeDriver: chrome on WIN8_1 (7f20625600d594c134a2cdbb6e973290)] -> xpath: //a[@class='login']]
+2017-06-20 01:19:43 INFO  HomePage:57 - Entered email address test4@hotmail.com and the object is :[[ChromeDriver: chrome on WIN8_1 (7f20625600d594c134a2cdbb6e973290)] -> xpath: //*[@id='email']]
+2017-06-20 01:19:44 INFO  HomePage:60 - Entered email address pass121 and the object is :[[ChromeDriver: chrome on WIN8_1 (7f20625600d594c134a2cdbb6e973290)] -> xpath: //*[@id='passwd']]
+2017-06-20 01:19:46 INFO  HomePage:63 - clicked submit button and the object is :[[ChromeDriver: chrome on WIN8_1 (7f20625600d594c134a2cdbb6e973290)] -> xpath: //*[@id='SubmitLogin']]
+2017-06-20 01:19:46 INFO  TC002_VerifyLoginWithDifferentRecords:59 - =================Finished verifyLoginWithDifferentRecords test=====================
+2017-06-20 01:19:46 INFO  TC002_VerifyLoginWithDifferentRecords:66 - closing browser
