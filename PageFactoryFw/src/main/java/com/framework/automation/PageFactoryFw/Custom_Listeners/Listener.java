@@ -99,7 +99,6 @@ public class Listener extends TestBase implements ITestListener {
 		String methodName=result.getName();
 		
 		Reporter.log("Test successful..."+result.getMethod().getMethodName());
-
 		if(result.isSuccess()){
 			
 			File sourceFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
