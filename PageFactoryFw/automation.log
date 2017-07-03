@@ -112,3 +112,90 @@
 2017-06-20 01:19:46 INFO  HomePage:63 - clicked submit button and the object is :[[ChromeDriver: chrome on WIN8_1 (7f20625600d594c134a2cdbb6e973290)] -> xpath: //*[@id='SubmitLogin']]
 2017-06-20 01:19:46 INFO  TC002_VerifyLoginWithDifferentRecords:59 - =================Finished verifyLoginWithDifferentRecords test=====================
 2017-06-20 01:19:46 INFO  TC002_VerifyLoginWithDifferentRecords:66 - closing browser
+2017-06-21 19:42:30 INFO  TC0003_VerifyLoginWithValidCredentials:38 - =================starting verifyLoginWithValidCrendetials test==================== 
+2017-06-21 19:42:34 INFO  HomePage:52 - clicked on SignIn Link and the object is :[[ChromeDriver: chrome on WIN8_1 (dee2dbb9775d6c44d85b3b70b82ad4ec)] -> xpath: //a[@class='login']]
+2017-06-21 19:42:34 INFO  HomePage:55 - Entered email address test@gmail.com and the object is :[[ChromeDriver: chrome on WIN8_1 (dee2dbb9775d6c44d85b3b70b82ad4ec)] -> xpath: //*[@id='email']]
+2017-06-21 19:42:35 INFO  HomePage:58 - Entered email address pass123 and the object is :[[ChromeDriver: chrome on WIN8_1 (dee2dbb9775d6c44d85b3b70b82ad4ec)] -> xpath: //*[@id='passwd']]
+2017-06-21 19:42:38 INFO  HomePage:61 - clicked submit button and the object is :[[ChromeDriver: chrome on WIN8_1 (dee2dbb9775d6c44d85b3b70b82ad4ec)] -> xpath: //*[@id='SubmitLogin']]
+2017-06-21 19:43:38 INFO  HomePage:79 - Exception Occured Webelement not displayed :org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='logout'][contains(text(),'Sign out')]"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'
+System info: host: 'MITHILESH', ip: '192.168.43.180', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\ANKIT\AppData\Local\Temp\scoped_dir4920_14276}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: dee2dbb9775d6c44d85b3b70b82ad4ec
+*** Element info: {Using=xpath, value=//a[@class='logout'][contains(text(),'Sign out')]}
+2017-06-21 19:43:39 INFO  TC0003_VerifyLoginWithValidCredentials:60 - closing browser
+2017-06-21 19:47:09 INFO  TC0003_VerifyLoginWithValidCredentials:38 - =================starting verifyLoginWithValidCrendetials test==================== 
+2017-06-21 19:47:15 INFO  HomePage:52 - clicked on SignIn Link and the object is :[[ChromeDriver: chrome on WIN8_1 (e323663433d69d58e2a6c533f56e57b3)] -> xpath: //a[@class='login']]
+2017-06-21 19:47:15 INFO  HomePage:55 - Entered email address admin123@yahoo.com and the object is :[[ChromeDriver: chrome on WIN8_1 (e323663433d69d58e2a6c533f56e57b3)] -> xpath: //*[@id='email']]
+2017-06-21 19:47:16 INFO  HomePage:58 - Entered email address demo123 and the object is :[[ChromeDriver: chrome on WIN8_1 (e323663433d69d58e2a6c533f56e57b3)] -> xpath: //*[@id='passwd']]
+2017-06-21 19:48:18 INFO  HomePage:61 - clicked submit button and the object is :Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='SubmitLogin']'
+2017-06-21 19:48:19 INFO  HomePage:75 - Text on webelement is :Sign out
+2017-06-21 19:48:19 INFO  TC0003_VerifyLoginWithValidCredentials:53 - =================Finished verifyLoginWithValidCrendetials test==================== 
+2017-06-21 19:48:19 INFO  TC0003_VerifyLoginWithValidCredentials:60 - closing browser
+2017-07-03 22:36:27 INFO  TC0003_VerifyLoginWithValidCredentials:38 - =================starting verifyLoginWithValidCrendetials test==================== 
+2017-07-03 22:36:32 INFO  HomePage:52 - clicked on SignIn Link and the object is :[[ChromeDriver: chrome on WIN8_1 (f65a71baff5c9e056b19c51c440602ba)] -> xpath: //a[@class='login']]
+2017-07-03 22:36:33 INFO  HomePage:55 - Entered email address admin123@yahoo.com and the object is :[[ChromeDriver: chrome on WIN8_1 (f65a71baff5c9e056b19c51c440602ba)] -> xpath: //*[@id='email']]
+2017-07-03 22:36:33 INFO  HomePage:58 - Entered email address demo12 and the object is :[[ChromeDriver: chrome on WIN8_1 (f65a71baff5c9e056b19c51c440602ba)] -> xpath: //*[@id='passwd']]
+2017-07-03 22:36:37 INFO  HomePage:61 - clicked submit button and the object is :[[ChromeDriver: chrome on WIN8_1 (f65a71baff5c9e056b19c51c440602ba)] -> xpath: //*[@id='SubmitLogin']]
+2017-07-03 22:37:37 INFO  HomePage:79 - Exception Occured Webelement not displayed :org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='logout'][contains(text(),'Sign out')]"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'
+System info: host: 'MITHILESH', ip: '192.168.43.180', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\ANKIT\AppData\Local\Temp\scoped_dir2708_16204}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: f65a71baff5c9e056b19c51c440602ba
+*** Element info: {Using=xpath, value=//a[@class='logout'][contains(text(),'Sign out')]}
+2017-07-03 22:37:37 INFO  TC0003_VerifyLoginWithValidCredentials:60 - closing browser
+2017-07-03 23:10:07 INFO  TC0003_VerifyLoginWithValidCredentials:38 - =================starting verifyLoginWithValidCrendetials test==================== 
+2017-07-03 23:10:11 INFO  HomePage:52 - clicked on SignIn Link and the object is :[[ChromeDriver: chrome on WIN8_1 (a57b4104b1c34645ef1352a4070cff8b)] -> xpath: //a[@class='login']]
+2017-07-03 23:10:12 INFO  HomePage:55 - Entered email address admin123@yahoo.com and the object is :[[ChromeDriver: chrome on WIN8_1 (a57b4104b1c34645ef1352a4070cff8b)] -> xpath: //*[@id='email']]
+2017-07-03 23:10:12 INFO  HomePage:58 - Entered email address demo12 and the object is :[[ChromeDriver: chrome on WIN8_1 (a57b4104b1c34645ef1352a4070cff8b)] -> xpath: //*[@id='passwd']]
+2017-07-03 23:10:14 INFO  HomePage:61 - clicked submit button and the object is :[[ChromeDriver: chrome on WIN8_1 (a57b4104b1c34645ef1352a4070cff8b)] -> xpath: //*[@id='SubmitLogin']]
+2017-07-03 23:11:14 INFO  HomePage:79 - Exception Occured Webelement not displayed :org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='logout'][contains(text(),'Sign out')]"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'
+System info: host: 'MITHILESH', ip: '192.168.43.180', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\ANKIT\AppData\Local\Temp\scoped_dir3112_22270}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: a57b4104b1c34645ef1352a4070cff8b
+*** Element info: {Using=xpath, value=//a[@class='logout'][contains(text(),'Sign out')]}
+2017-07-03 23:11:15 INFO  TC0003_VerifyLoginWithValidCredentials:60 - closing browser
+2017-07-03 23:15:20 INFO  TC0003_VerifyLoginWithValidCredentials:38 - =================starting verifyLoginWithValidCrendetials test==================== 
+2017-07-03 23:15:24 INFO  HomePage:52 - clicked on SignIn Link and the object is :[[ChromeDriver: chrome on WIN8_1 (d151befe166e580c6bef1a5bec4bc986)] -> xpath: //a[@class='login']]
+2017-07-03 23:15:25 INFO  HomePage:55 - Entered email address admin123@yahoo.com and the object is :[[ChromeDriver: chrome on WIN8_1 (d151befe166e580c6bef1a5bec4bc986)] -> xpath: //*[@id='email']]
+2017-07-03 23:15:25 INFO  HomePage:58 - Entered email address demo123 and the object is :[[ChromeDriver: chrome on WIN8_1 (d151befe166e580c6bef1a5bec4bc986)] -> xpath: //*[@id='passwd']]
+2017-07-03 23:16:28 INFO  HomePage:61 - clicked submit button and the object is :Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='SubmitLogin']'
+2017-07-03 23:16:28 INFO  HomePage:75 - Text on webelement is :Sign out
+2017-07-03 23:16:29 INFO  TC0003_VerifyLoginWithValidCredentials:53 - =================Finished verifyLoginWithValidCrendetials test==================== 
+2017-07-03 23:16:29 INFO  TC0003_VerifyLoginWithValidCredentials:60 - closing browser
+2017-07-03 23:31:46 INFO  TC0003_VerifyLoginWithValidCredentials:38 - =================starting verifyLoginWithValidCrendetials test==================== 
+2017-07-03 23:31:50 INFO  HomePage:52 - clicked on SignIn Link and the object is :[[ChromeDriver: chrome on WIN8_1 (32b1b779c65666be23175fae77cffd55)] -> xpath: //a[@class='login']]
+2017-07-03 23:31:51 INFO  HomePage:55 - Entered email address admin123@yahoo.com and the object is :[[ChromeDriver: chrome on WIN8_1 (32b1b779c65666be23175fae77cffd55)] -> xpath: //*[@id='email']]
+2017-07-03 23:31:51 INFO  HomePage:58 - Entered password address demo123 and the object is :[[ChromeDriver: chrome on WIN8_1 (32b1b779c65666be23175fae77cffd55)] -> xpath: //*[@id='passwd']]
+2017-07-03 23:33:22 INFO  TC0003_VerifyLoginWithValidCredentials:38 - =================starting verifyLoginWithValidCrendetials test==================== 
+2017-07-03 23:33:27 INFO  HomePage:52 - clicked on SignIn Link and the object is :[[ChromeDriver: chrome on WIN8_1 (12ebe10cbf6a9a10b3464b5e53b892b2)] -> xpath: //a[@class='login']]
+2017-07-03 23:33:28 INFO  HomePage:55 - Entered email address admin123@yahoo.com and the object is :[[ChromeDriver: chrome on WIN8_1 (12ebe10cbf6a9a10b3464b5e53b892b2)] -> xpath: //*[@id='email']]
+2017-07-03 23:33:28 INFO  HomePage:58 - Entered password address demo123 and the object is :[[ChromeDriver: chrome on WIN8_1 (12ebe10cbf6a9a10b3464b5e53b892b2)] -> xpath: //*[@id='passwd']]
+2017-07-03 23:34:32 INFO  HomePage:61 - clicked submit button and the object is :Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='SubmitLogin']'
+2017-07-03 23:34:32 INFO  HomePage:75 - Text on webelement is :Sign out
+2017-07-03 23:34:32 INFO  TC0003_VerifyLoginWithValidCredentials:55 - =================Finished verifyLoginWithValidCrendetials test==================== 
+2017-07-03 23:34:33 INFO  TC0003_VerifyLoginWithValidCredentials:62 - closing browser
+2017-07-03 23:48:10 INFO  TC0003_VerifyLoginWithValidCredentials:38 - =================starting verifyLoginWithValidCrendetials test==================== 
+2017-07-03 23:48:14 INFO  HomePage:52 - clicked on SignIn Link and the object is :[[ChromeDriver: chrome on WIN8_1 (deb8449109953ff855e867956c7c00f6)] -> xpath: //a[@class='login']]
+2017-07-03 23:48:14 INFO  HomePage:55 - Entered email address admin123@yahoo.com and the object is :[[ChromeDriver: chrome on WIN8_1 (deb8449109953ff855e867956c7c00f6)] -> xpath: //*[@id='email']]
+2017-07-03 23:48:15 INFO  HomePage:58 - Entered password  demo123 and the object is :[[ChromeDriver: chrome on WIN8_1 (deb8449109953ff855e867956c7c00f6)] -> xpath: //*[@id='passwd']]
+2017-07-03 23:49:18 INFO  HomePage:61 - clicked submit button and the object is :Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='SubmitLogin']'
+2017-07-03 23:49:18 INFO  HomePage:75 - Text on webelement is :Sign out
+2017-07-03 23:49:18 INFO  TC0003_VerifyLoginWithValidCredentials:55 - =================Finished verifyLoginWithValidCrendetials test==================== 
+2017-07-03 23:49:19 INFO  TC0003_VerifyLoginWithValidCredentials:62 - closing browser

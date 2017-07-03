@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Regression suite">
+<listeners>
+<listener class-name="com.framework.automation.PageFactoryFw.Custom_Listeners.Listener"></listener>
+
+
+</listeners>
   <test name="TC001_VerifyLoginWithInvalidCrendetials">
     <classes>
-      <class name="com.framework.automation.PageFactoryFw.homePage.TC001_VerifyLoginWithInvalidCrendetials"/>
+      <class name="com.framework.automation.PageFactoryFw.homePage.TC0003_VerifyLoginWithValidCredentials"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
